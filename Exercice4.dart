@@ -4,3 +4,8 @@ class Media {
  void afficherType() {
     print("ceci est un media generique");
   }
+}
+
+class Livre extends Media {
+  final String auteur;
+  Livre(super.titre, this.auteur);
