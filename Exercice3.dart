@@ -7,4 +7,12 @@ String get solde {
     return "${_solde.toStringAsFixed(2)} \$";
   }
 
+  void depot(double montant) {
+    if (montant > 0) {
+      _solde += montant;
+    }
+  }
+}
+
+
 
