@@ -20,3 +20,9 @@ class Film extends Media {
    @override
   void afficherType() {print("Ceci est un Film : $titre ($dureeMinutes minutes).");}
 }
+void main() {
+  List<Media> catalogue = [];
+  catalogue.add(Livre("Ainsi parlait Zarathoustra", "Frederick Nitzch"));
+  catalogue.add(Livre("Les Misérables", "Victor Hugo"));
+  catalogue.add(Film("Interstellar", 180));
+  catalogue.add(Film("Odissey", 190));
