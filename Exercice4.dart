@@ -26,3 +26,8 @@ void main() {
   catalogue.add(Livre("Les Misérables", "Victor Hugo"));
   catalogue.add(Film("Interstellar", 180));
   catalogue.add(Film("Odissey", 190));
+  
+for (var k in catalogue) {
+    k.afficherType();
+  }
+}
