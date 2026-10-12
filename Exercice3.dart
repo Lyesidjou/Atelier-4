@@ -13,6 +13,10 @@ String get solde {
     }
   }
 }
-
+void main() {
+  var compte = Compte("IDJOUL-9901");
+  compte.depot(420);
+  print("Solde : ${compte.solde}"); 
+}
 
 
